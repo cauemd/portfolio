@@ -16,12 +16,27 @@ const Navbar = () => {
         <ul className="nav-links">
           <li>
             <a href="#home" className="link-btn">
-              LinkedIn
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#about" className="link-btn">
+              About Me
             </a>
           </li>
           <li>
             <a href="#education" className="link-btn">
-              GitHub
+              Education
+            </a>
+          </li>
+          <li>
+            <a href="#events" className="link-btn">
+              Events
+            </a>
+          </li>
+          <li>
+            <a href="#contact" className="link-btn last-link">
+              Contact
             </a>
           </li>
         </ul>

@@ -148,7 +148,7 @@ Project Styles
   width: 100vw;
   display: flex;
   position: fixed;
-  top: 0;
+  bottom: 0;
   left: 0;
   align-items: center;
   justify-content: center;
@@ -189,7 +189,6 @@ Project Styles
   height: 100%;
   top: 0;
   left: 0;
-  margin-top: 3rem;
   background: url(./static/hero.svg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -236,11 +235,12 @@ Project Styles
   .signin-btn {
     display: inline-block;
   }
+
   .nav-links {
     display: block;
     justify-self: center;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     text-align: center;
     height: 100%;
     display: grid;
@@ -249,16 +249,26 @@ Project Styles
   .nav-links li {
     height: 100%;
   }
+
   .link-btn {
     display: block;
     height: 100%;
-    background: transparent;
-    border-color: "transparent";
+    border-right: 3px solid var(--clr-red-dark);
     font-size: 1.1rem;
-    color: rgb(148, 55, 55);
+    color: var(--clr-red-dark);
     text-transform: capitalize;
     letter-spacing: 1px;
     width: 10rem;
+    transition: var(--transition);
+  }
+
+  .last-link {
+    border-right: none;
+  }
+
+  .link-btn:hover {
+    background-color: var(--clr-red-dark);
+    color: var(--clr-white);
   }
 }
 
@@ -439,7 +449,6 @@ Project Styles
 .timeline-section {
   position: relative;
   background-color: rgb(226, 228, 228);
-  margin-top: 9rem;
 }
 
 .education-info {
@@ -448,4 +457,22 @@ Project Styles
   text-align: center;
   color: var(--clr-red-light);
   line-height: 38px;
+}
+
+.about-section {
+  min-height: 100vh;
+  position: relative;
+  background-color: rgba(168, 168, 168, 0.63);
+}
+
+.events-section {
+  min-height: 100vh;
+  position: relative;
+  background-color: rgba(168, 168, 168, 0.63);
+}
+
+.contact-section {
+  min-height: 100vh;
+  position: relative;
+  background-color: rgba(168, 168, 168, 0.63);
 }
