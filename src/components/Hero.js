@@ -1,22 +1,20 @@
 import React from "react";
-import phoneImg from "../static/picture.png";
-import { useGlobalContext } from "./context";
+import myImg from "../static/picture.png";
 
 const Hero = () => {
-  const { closeSubmenu } = useGlobalContext();
   return (
-    <section className="hero" onMouseOver={closeSubmenu}>
+    <section id="home" className="hero">
       <div className="hero-center">
         <article className="hero-info">
           <h3>Hello there! I'm</h3>
           <h1>Caue Meireles Duarte</h1>
           <p>
-            Cloud Entusiast / Coding aficionado / Bachelor (Honours) in
-            Information Technology
+            Cloud Entusiast / Coding Aficionado / Bachelor (Honours) in
+            Information Technology Student
           </p>
         </article>
         <article className="hero-images">
-          <img src={phoneImg} alt="phone" className="phone-img" />
+          <img src={myImg} alt="developer" className="phone-img" />
         </article>
       </div>
     </section>
