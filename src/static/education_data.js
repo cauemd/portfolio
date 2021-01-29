@@ -1,5 +1,6 @@
 import React from "react";
 import { IoIosSchool, IoIosRibbon } from "react-icons/io";
+import { FaAws } from "react-icons/fa";
 
 const education = [
   {
@@ -15,15 +16,17 @@ const education = [
     title: "Amazon Academy - Cloud Architecting",
     subtitle: "Amazon Web Services",
     date: "2021",
-    text: "Course covering cloud-native skills including DevOps. ",
+    text:
+      "Course covering fundamentals of building IT infrastructure on AWS, including best practices, building infrastructure and solution architecting in the Cloud.",
     link: "https://www.cct.ie/course/diploma-dev-ops/",
-    icon: <IoIosRibbon />,
+    icon: <FaAws />,
   },
   {
     title: "Diploma in DevOps",
     subtitle: "CCT College Dublin",
     date: "2020",
-    text: "Course covering cloud-native skills including DevOps. ",
+    text:
+      "Course covering cloud-native skills including DevOps. The course also covered containers (docker) and system orchestration (Kubernetes) ",
     link: "https://www.cct.ie/course/diploma-dev-ops/",
     icon: <IoIosRibbon />,
   },
@@ -41,8 +44,8 @@ const education = [
     title: "Bsc in Environmental Engineering",
     subtitle: "Faculdades Oswaldo Cruz (Brazil)",
     date: "2009 - 2013",
-    text: "",
-    link: "",
+    text: "Environmental Engineering degree. (Website in Brazilian-Portuguese)",
+    link: "https://www.oswaldocruz.br/www/view/cursos/engenharia-ambiental/",
     icon: <IoIosSchool />,
   },
 ];

@@ -15,7 +15,7 @@ function App() {
       <Navbar />
       <Sidebar />
       <Hero />
-      <AboutMe />
+      {/* <AboutMe /> */}
       <Timeline />
       <Events />
       <Contact />

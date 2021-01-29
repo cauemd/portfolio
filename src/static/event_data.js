@@ -22,13 +22,12 @@ const events = [
   },
   {
     id: 3,
-    image:
-      "https://d1.awsstatic.com/WWPS/AWS_Educate_EDU_Main.68c8ca649375bf90969439b9fcbebc94d171d5e2.png",
+    image: "https://oit.utdallas.edu/oit/files/header-aws-educate.png",
     name: "AWS Educate Challenge 2020",
     link: "https://aws.amazon.com/education/awseducate/university-challenge/",
     title: "Amazon Web Services",
     quote:
-      "Online competition involving UK and Ireland colleges where participants would take courses on a plethora of subjects (with heavy emphasis in Cloud Technology), earning points from completing an assessment at the end of each one. Not only I helped my college placing 1st, I have also obtained the 7th place among all Irish students.",
+      "Online competition involving UK and Ireland colleges where participants would take courses on a plethora of subjects (with heavy emphasis in Cloud Technology), earning points from completing an assessment at the end of each one. Not only I helped my college placing 1st (I contributed with more than 10% of the points for the college), I have also obtained the 7th place among all Irish students.",
   },
 ];
 

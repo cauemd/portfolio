@@ -19,11 +19,11 @@ const Navbar = () => {
               Home
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#about" className="link-btn">
               About Me
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="#education" className="link-btn">
               Education

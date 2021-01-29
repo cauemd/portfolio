@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaTimes } from "react-icons/fa";
 import sublinks from "../static/menu_data";
 import { useGlobalContext } from "./context";
 

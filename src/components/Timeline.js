@@ -29,7 +29,7 @@ const Timeline = () => {
                 {subtitle}
               </h4>
               <p>{text}</p>
-              <a href={link}>Website</a>
+              <a href={link}>Click here for more info</a>
             </VerticalTimelineElement>
           );
         })}
