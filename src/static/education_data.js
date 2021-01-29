@@ -12,6 +12,14 @@ const education = [
     icon: <IoIosSchool />,
   },
   {
+    title: "Amazon Academy - Cloud Architecting",
+    subtitle: "Amazon Web Services",
+    date: "2021",
+    text: "Course covering cloud-native skills including DevOps. ",
+    link: "https://www.cct.ie/course/diploma-dev-ops/",
+    icon: <IoIosRibbon />,
+  },
+  {
     title: "Diploma in DevOps",
     subtitle: "CCT College Dublin",
     date: "2020",
