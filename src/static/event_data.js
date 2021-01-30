@@ -1,8 +1,11 @@
+import aws from "./aws-educate.png";
+import what_the_hack from "./hack.png";
+import decoding from "./decoding.png";
+
 const events = [
   {
     id: 1,
-    image:
-      "https://media-exp1.licdn.com/dms/image/C4D0BAQGyz5bh_aeJ2w/company-logo_200_200/0/1583479891526?e=1620259200&v=beta&t=XzJO8yR7zF8H-CFDjwaV2fm4KaYlFa2rV1WkQoEyT3g",
+    image: what_the_hack,
     name: "What the Hack's",
     link: "https://what-the-hack.co/",
     title:
@@ -12,8 +15,7 @@ const events = [
   },
   {
     id: 2,
-    image:
-      "http://graduate.openet.com/wp-content/uploads/2020/02/decoding-email-banner.png",
+    image: decoding,
     name: "De/Coding Openet 2020",
     link: "http://graduate.openet.com/de-coding-registration/",
     title: "Openet",
@@ -22,7 +24,7 @@ const events = [
   },
   {
     id: 3,
-    image: "https://oit.utdallas.edu/oit/files/header-aws-educate.png",
+    image: aws,
     name: "AWS Educate Challenge 2020",
     link: "https://aws.amazon.com/education/awseducate/university-challenge/",
     title: "Amazon Web Services",

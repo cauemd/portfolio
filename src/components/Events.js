@@ -3,18 +3,18 @@ import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 import event_data from "../static/event_data";
 
 const Events = () => {
-  const [people, setPeople] = useState(event_data);
+  const [events] = useState(event_data);
   const [index, setIndex] = React.useState(0);
 
   useEffect(() => {
-    const lastIndex = people.length - 1;
+    const lastIndex = events.length - 1;
     if (index < 0) {
       setIndex(lastIndex);
     }
     if (index > lastIndex) {
       setIndex(0);
     }
-  }, [index, people]);
+  }, [index, events]);
 
   useEffect(() => {
     let slider = setInterval(() => {
@@ -31,16 +31,16 @@ const Events = () => {
         <h2>Tech Events</h2>
       </div>
       <div className="events-center">
-        {people.map((person, personIndex) => {
-          const { id, image, name, title, quote, link } = person;
+        {events.map((event, eventIndex) => {
+          const { id, image, name, title, quote, link } = event;
 
           let position = "nextSlide";
-          if (personIndex === index) {
+          if (eventIndex === index) {
             position = "activeSlide";
           }
           if (
-            personIndex === index - 1 ||
-            (index === 0 && personIndex === people.length - 1)
+            eventIndex === index - 1 ||
+            (index === 0 && eventIndex === event.length - 1)
           ) {
             position = "lastSlide";
           }
