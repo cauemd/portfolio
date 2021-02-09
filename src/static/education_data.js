@@ -18,7 +18,8 @@ const education = [
     date: "2021",
     text:
       "Course covering fundamentals of building IT infrastructure on AWS, including best practices, building infrastructure and solution architecting in the Cloud.",
-    link: "https://www.cct.ie/course/diploma-dev-ops/",
+    link:
+      "https://www.youracclaim.com/badges/4771563f-61e8-4f67-b237-9062d2892b88/linked_in",
     icon: <FaAws />,
   },
   {

@@ -9,7 +9,7 @@ const Hero = () => {
           <h3>Hello there! I'm</h3>
           <h1>Caue Meireles Duarte</h1>
           <p>
-            Cloud Entusiast / Coding Aficionado / Bachelor (Honours) in
+            Cloud Enthusiast / Coding Aficionado / Bachelor (Honours) in
             Information Technology Student
           </p>
         </article>
